@@ -1,8 +1,8 @@
 <?php
 $my_email ="alslmansalh799@gmail.com" ;
-$return_to ="https://sites.google.com/view/payment7sas/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9" ;
-$notify_page ="https://sites.google.com/view/payment7sas/%D8%A7%D9%84%D8%AF%D9%81%D8%B9/notify_page" ;
-$custom = "example";
+$return_to ="https://sasle7.github.io/Pay/" ;
+$notify_page ="https://sasle7.github.io/Pay/notify_page" ;
+$custom = "DONE";
 ?>
 
 
@@ -20,6 +20,6 @@ $custom = "example";
 <input type="email" name="sp_api_user_email">
 
 <input type="number" name="amount" id="payPrice" required="required" />
-<input class="btd" type="submit" id="pay" value="pay"/>
+<input type="submit" id="pay" value="pay"/>
 
 </form>
